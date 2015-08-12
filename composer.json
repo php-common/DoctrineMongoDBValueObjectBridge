@@ -1,0 +1,27 @@
+{
+  "name": "phpcommon/doctrine-mongodb-valueobject-bridge",
+  "type": "library",
+  "description": "Doctrine MongoDB ODM bridge for using value objects as data-types.",
+  "keywords": ["value object", "immutability", "doctrine", "mongodb", "odm"],
+  "homepage": "https://github.com/php-common",
+  "license": "MIT",
+  "authors": [{
+    "name": "Marcos Passos",
+    "email": "marcos@marcospassos.com"
+  }],
+  "require": {
+    "php": ">=5.4.0",
+    "doctrine/mongodb-odm": "1.0.*@dev",
+    "phpcommon/valueobject": "~0.1@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Common\\ValueObject\\Doctrine\\ODM\\MongoDB\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
